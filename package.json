@@ -1,0 +1,34 @@
+{
+  "name": "purs-bin-simple",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/justinwoo/npm-purs-bin-simple",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinwoo/npm-purs-bin-simple.git"
+  },
+  "main": "index.js",
+  "files": [
+    "install.js",
+    "purs",
+    "purs/purs"
+  ],
+  "scripts": {
+    "preinstall": "node ./install.js"
+  },
+  "author": "Justin Woo",
+  "bin": {
+    "purs": "./purs/purs.exe"
+  },
+  "purs-version": "v0.13.0",
+  "dependencies": {
+    "follow-redirects": "^1.7.0",
+    "shelljs": "^0.8.3",
+    "tar": "^4.4.10"
+  },
+  "keywords": [
+    "purescript",
+    "purs"
+  ],
+  "license": "MIT"
+}
