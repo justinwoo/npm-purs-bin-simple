@@ -1,6 +1,6 @@
 {
   "name": "purs-bin-simple",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "homepage": "https://github.com/justinwoo/npm-purs-bin-simple",
   "repository": {
@@ -20,7 +20,7 @@
   "bin": {
     "purs": "./purs/purs.exe"
   },
-  "purs-version": "v0.13.0",
+  "purs-version": "v0.13.2",
   "dependencies": {
     "follow-redirects": "^1.7.0",
     "shelljs": "^0.8.3",
