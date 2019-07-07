@@ -20,6 +20,12 @@ You can also install this globally:
 npm install -g purs-bin-simple
 ```
 
+You can specify the `purs` version via the `PURS_VERSION` environment variable:
+
+```
+PURS_VERSION=v0.13.0 npm install -g purs-bin-simple
+```
+
 ## Version history
 
 Instead of awkwardly trying to follow the same versioning scheme, the following table should be consulted if you need a specific series of versions:
