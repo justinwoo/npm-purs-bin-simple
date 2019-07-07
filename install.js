@@ -1,9 +1,10 @@
 "use strict";
 
+const process = require("process");
 const https = require("follow-redirects").https;
 const tar = require("tar");
 const shell = require("shelljs");
-const version = require("./package.json")["purs-version"];
+const version = process.env.PURS_VERSION || require("./package.json")["purs-version"];
 const platform = { win32: "win64", darwin: "macos" }[process.platform] || "linux64";
 
 https.get(
@@ -16,4 +17,3 @@ https.get(
       })
     )
 );
-
